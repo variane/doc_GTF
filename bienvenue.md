@@ -37,5 +37,6 @@ L&#39;architecture de GTF est constituée de plusieurs composants logiciels.
 | GTF Engine | GTF Engine désigne le moteur de GTF, la partie logicielle capable d&#39;exécuter les traitements FME. GTF exploite au minimum un moteur GTF. Les moteurs supplémentaires permettent de répartir la charge sur plusieurs process ou machines. L&#39;ajout de moteurs supplémentaires et soumis à l&#39;acquisition des licences correspondantes.  |
 | FME | Logiciel FME Professional Edition ou supérieure en licence fixe ou flottante. FME ne fait pas partie du logiciel GTF, mais il est indispensable à son fonctionnement. |
 
- ![](./)
+ ![composants logiciels de GTF](./images/gtf_comosants.png)
+ 
 
