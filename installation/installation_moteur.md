@@ -171,11 +171,11 @@ Choisir le traitement &quot;Admin-Import&quot; puis dans « Fichier d&#39;export
 
 ![](../images/attention.png)_Le paramètre &quot;Que faire des projets existants déjà dans la base GTF (même Clé)&quot; indique à GTF s&#39;il doit charger ou pas les projets déjà existants dans la base GTF et identifiés de façon unique  par l&#39;attribut Clé (cet attribut est généré automatiquement et est associé de façon unique à chaque projet)._
 
-- ___Si ce paramètre vaut &#39;Ne pas importer&#39; et que le fichier .gex contient un projet FME avec une clé déjà existante dans la base GTF, alors le fichier n&#39;est pas chargé._
-- ___Inversement, si ce paramètre vaut &#39;Remplacer les projets existants&#39;, alors les projets dont la clé existe déjà dans la base de données GTF seront écrasés._
-- ___Choisir &#39;Importer le projet avec un nouvel identifiant et un nouveau nom&#39;, si le projet FME avec la même clé existe déjà en base et que vous souhaitez importer le même projet mais avec un nouveau nom. Le projet est renommé en étant suffixé par la chaîne &quot;(import date de l&#39;import)&quot;._
+- Si ce paramètre vaut &#39;Ne pas importer&#39; et que le fichier .gex contient un projet FME avec une clé déjà existante dans la base GTF, alors le fichier n&#39;est pas chargé._
+- Inversement, si ce paramètre vaut &#39;Remplacer les projets existants&#39;, alors les projets dont la clé existe déjà dans la base de données GTF seront écrasés._
+- Choisir &#39;Importer le projet avec un nouvel identifiant et un nouveau nom&#39;, si le projet FME avec la même clé existe déjà en base et que vous souhaitez importer le même projet mais avec un nouveau nom. Le projet est renommé en étant suffixé par la chaîne &quot;(import date de l&#39;import)&quot;._
 
-_ _
+
 
 Cliquer  sur « Créer la demande ». La demande est prise en compte et se retrouve dans la file d&#39;attente du moteur GTF.
 
