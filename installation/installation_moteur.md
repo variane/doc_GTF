@@ -80,7 +80,7 @@ La déclaration du serveur permet de définir les répertoires contenant l&#39;o
 
 • Cliquer sur Créer
 
- ![Déclaration de serveur](../images/declaration_serveur.png)
+ ![Déclaration de serveur](../images/ajout_serveur.png)
  
 
 
