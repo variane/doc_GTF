@@ -28,7 +28,7 @@ A ce stade de l&#39;initialisation, le compte administrateur peut se connecter �
 
 Les 10 modes sont correctement affichés dans la barre de gauche :
 
- ![](./)
+ ![Attribution de privilèges gtf_admin](../images/10modes.png)
 
 Interface Administrateur de GTF
 
