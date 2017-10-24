@@ -181,7 +181,7 @@ Cliquer  sur « Créer la demande ». La demande est prise en compte et se retro
 
 S&#39;assurer que la Demande ait bien été traitée en consultant le mode Supervision, puis retourner dans le mode Publication pour consulter la liste des traitements nouvellement importés.
 
- ![](./)
+ ![](../images/projets_exemples.png)
 
 3 nouveaux traitements sont désormais disponibles dans GTF.
 
