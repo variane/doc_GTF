@@ -23,7 +23,7 @@ GTF se compose d'une application cliente, d&#39;une API REST qui permet d&#39;ex
 
 - L&#39;API Formulaire permet de mettre en forme le formulaire de saisie des paramètres en intégrant des composants (cartes open layer, arborescences de fichiers…)
 
-  Les composants logiciels de GTF
+ ## Les composants logiciels de GTF
 
 L&#39;architecture de GTF est constituée de plusieurs composants logiciels.
 
