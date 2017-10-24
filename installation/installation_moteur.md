@@ -50,11 +50,11 @@ _Lors de la décompression de l&#39;archive gtf.engines, l&#39;administrateur do
 
 Immédiatement après « # IPv4 local connections » insérer la ligne :
 
-        host &lt;base de donnnées&gt; u\_scheduler 127.0.0.1/32 trust
+        host<base de donnnées>u\_scheduler 127.0.0.1/32 trust
 
 Immédiatement après « # IPv6 local connections » insérer la ligne :
 
-        host&lt;base de donnnées&gt; u\_scheduler ::1/128 trust
+        host<base de donnnées>u\_scheduler ::1/128 trust
 
 _ _
 
