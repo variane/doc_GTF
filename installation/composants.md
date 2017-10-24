@@ -8,7 +8,8 @@
 Dans GTF, FME est en charge de l’exécution des projets.
 Procéder en premier lieu à l'installation de FME pour que GTF puisse fonctionner et exécuter des traitements.
  
-Procédure d'installation de FME.  
+ Procédure d'installation de FME  :
+[Procédure d'installation de FME](http://documentation.veremes.net/public/fme/fme_guide_installation.pdf) 
 
 
  ### Installation du serveur https Apache 2.4 
