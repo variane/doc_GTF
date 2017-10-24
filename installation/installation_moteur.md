@@ -127,7 +127,7 @@ Attribuer un nom au moteur GTF et définir la période d&#39;activité en minute
 
 
 
- ![](./)
+ ![Déclaration du moteur GTF](../images/moteur_gtf.png)
 
 
 
