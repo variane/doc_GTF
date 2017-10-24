@@ -34,10 +34,7 @@ Les 10 modes sont correctement affichés dans la barre de gauche :
 
 Le compte administrateur peut procéder à une demande de traitement. Cette dernière restera en attente et ne sera pas exécutée.
 
- ![](../images/attention.png)
- 
- 
-3 traitements sont intégrés dans GTF : Admin-Import, Admin-export et Vérification des formulaires.
+ ![](../images/attention.png) 3 traitements sont intégrés dans GTF : Admin-Import, Admin-export et Vérification des formulaires.
 
 
 
