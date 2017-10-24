@@ -145,9 +145,11 @@ L'installation du fichier de licence GTF est la dernière étape du processus d'
 
 Dans le mode Configuration, la section Licence permet de demander un fichier de licence nécessaire pour activer les licences permanentes.
 
+
 Le bouton « Demande de fichier de licence » permet d'envoyer au service administratif de Veremes une demande de génération de fichier de licence. Indiquer le numéro de licence fourni dans l'accusé de réception de votre commande, ainsi que l'adresse mail à laquelle le fichier doit être envoyé.
 
-Une fois obtenu,  indiquer l'emplacement du fichier de licence délivré par Veremes dans le champ &#39;Fichier .txt&#39;, puis cliquer sur « Activer ».
+
+Une fois obtenu,  indiquer l'emplacement du fichier de licence délivré par Veremes dans le champ 'Fichier.txt', puis cliquer sur 'Activer'.
 
 ## Tests : Import de nouveaux traitements
 
