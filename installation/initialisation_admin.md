@@ -24,7 +24,7 @@ Attribution de privilèges gtf\_admin
 
 En savoir plus sur les privilèges
 
- Test de Connexion du compte administrateur
+## Test de Connexion du compte administrateur
 
 A ce stade de l&#39;initialisation, le compte administrateur peut se connecter à GTF ( https://&lt;serveur&gt;/gtf) et accéder à l&#39;intégralité des 10 modes de l&#39;application.
 
@@ -39,6 +39,8 @@ Interface Administrateur de GTF
 Le compte administrateur peut procéder à une demande de traitement. Cette dernière restera en attente et ne sera pas exécutée.
 
  ![](./)
+ 
+ 
 3 traitements sont intégrés dans GTF : Admin-Import, Admin-export et Vérification des formulaires.
 
 
