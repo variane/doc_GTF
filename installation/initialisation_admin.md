@@ -30,8 +30,6 @@ Les 10 modes sont correctement affichés dans la barre de gauche :
 
  ![Attribution de privilèges gtf_admin](../images/10modes.png)
 
-Interface Administrateur de GTF
-
 
 
 Le compte administrateur peut procéder à une demande de traitement. Cette dernière restera en attente et ne sera pas exécutée.
