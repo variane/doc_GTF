@@ -6,7 +6,14 @@ Le mode Publication comporte l’ensemble des formulaires permettant la créatio
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 6
 
-   installation/index.rst
+
+
+ Ajout_projet_FME
+ Gestion_categories
+ Gestion_depots
+ Gestion_periode
+ Modele_email
+ 
 
