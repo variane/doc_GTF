@@ -4,13 +4,13 @@
 
 ## Configuration du compte administrateur
 
-Le compte administrateur, défini en phase d'installation par la variable &#39;appAdmin&#39;, dispose initialement des privilèges vitis\_user et vitis \_admin.
+Le compte administrateur, défini en phase d'installation par la variable 'AppAdmin', dispose initialement des privilèges vitis\_user et vitis \_admin.
 
-La configuration du compte administrateur permet l&#39;attribution des privilèges d&#39;administration spécifiques à GTF, c&#39;est à dire gtf\_admin :
+La configuration du compte administrateur permet l'attribution des privilèges d'administration spécifiques à GTF, c'est à dire gtf\_admin :
 
 • Se connecter à GTF avec le compte administrateur
 
-• Mode Utilisateurs &gt; onglet Utilisateur, éditer le compte administrateur et lui attribuer les privilèges gtf\_admin. Attribuer à l&#39;administrateur les autres privileges gtf\_author et gtf\_user.
+• Mode Utilisateurs \> onglet Utilisateur, éditer le compte administrateur et lui attribuer les privilèges gtf\_admin. Attribuer à l'administrateur les autres privileges gtf\_author et gtf\_user.
 
 • Associer le compte courant au groupe Administration
 
@@ -24,7 +24,7 @@ En savoir plus sur les privilèges
 
 ## Test de Connexion du compte administrateur
 
-A ce stade de l&#39;initialisation, le compte administrateur peut se connecter à GTF ( https://&lt;serveur&gt;/gtf) et accéder à l&#39;intégralité des 10 modes de l&#39;application.
+A ce stade de l'initialisation, le compte administrateur peut se connecter à GTF ( https://&lt;serveur&gt;/gtf) et accéder à l'intégralité des 10 modes de l'application.
 
 Les 10 modes sont correctement affichés dans la barre de gauche :
 
@@ -41,6 +41,6 @@ Le compte administrateur peut procéder à une demande de traitement. Cette dern
 
 
 
-Après avoir configuré le compte administrateur, procéder à l&#39;installation du moteur GTF.
+Après avoir configuré le compte administrateur, procéder à l'installation du moteur GTF.
 
 
