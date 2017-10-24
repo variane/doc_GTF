@@ -30,7 +30,9 @@ Editer le setup install.cmd (Windows) du répertoire 'installateur_gtf_applicati
 Les variables à modifier pour l’installation sont :
  
 |Variable|	Description|
+
 |:-------|:-----------|
+
 |dir|Répertoire d'installation (si le répertoire n'existe pas, il sera créé)|
 |serveur	|Serveur de la base de données|
 |port	|Port d'accès à la base de données|
