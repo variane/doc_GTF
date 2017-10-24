@@ -36,15 +36,15 @@ Vérifier que le service soit démarré et que le type de démarrage soit en mod
 
 Dans GTF, indiquer le répertoire d&#39;installation du Pycron dans le Mode Configuration&gt; Configuration GTF&gt; Répertoire de pycron.
 
- ![](./)
-**Test** : Cette opération rajoute un répertoire &#39;Log&#39; dans la fenêtre d&#39;affichage des journaux du Mode Log.
+
+![](../images/attention.png)**Test** : Cette opération rajoute un répertoire &#39;Log&#39; dans la fenêtre d&#39;affichage des journaux du Mode Log.
 
  ## Installation du Moteur
 
 Décompresser l&#39;archive moteur\_gtf.zip, dans le répertoire d&#39;installation au même niveau que les répertoires client et vas.
 
- ![](./)
-_Lors de la décompression de l&#39;archive gtf.engines, l&#39;administrateur doit penser à modifier manuellement le fichier de configuration de la base de données PostgreSQL pour autoriser la connexion de l&#39;utilisateur scheduler à la base de données créée lors de l&#39;installation de GTF. Dans le répertoire d&#39;installation de PostgreSQL (répertoire data),  modifier à l&#39;aide d&#39;un éditeur de texte le fichier pg\_hba.conf en y insérant les lignes suivantes pour les deux connexions IPv4 et IPv6._
+ 
+![](../images/attention.png)Lors de la décompression de l&#39;archive gtf.engines, l&#39;administrateur doit penser à modifier manuellement le fichier de configuration de la base de données PostgreSQL pour autoriser la connexion de l&#39;utilisateur scheduler à la base de données créée lors de l&#39;installation de GTF. Dans le répertoire d&#39;installation de PostgreSQL (répertoire data),  modifier à l&#39;aide d&#39;un éditeur de texte le fichier pg\_hba.conf en y insérant les lignes suivantes pour les deux connexions IPv4 et IPv6._
 
 
 
@@ -102,9 +102,9 @@ La première étape consiste à déclarer un moteur FME exploitable par GTF.
  ![Déclaration de moteur FME](../images/moteur.png)
 
 
-Il est conseillé de nommer le moteur FME en indiquant le numéro de version, le numéro de build et le nombre de bits. Par exemple : « FME2016 b16494-32b ».
+![](../images/attention.png) Il est conseillé de nommer le moteur FME en indiquant le numéro de version, le numéro de build et le nombre de bits. Par exemple : « FME2016 b16494-32b ».
 
-Le bouton &#39;Test&#39; permet de vérifier la validité de la licence FME. Avec FME 2016, pour que la licence soit valide, copier le fichier de licence présent dans le répertoire C:\ProgramData\SafeSoftware\FME\Licenses) dans le répertoire \licenses du répertoire d&#39;installation de FME2016.
+![](../images/attention.png) Le bouton &#39;Test&#39; permet de vérifier la validité de la licence FME. Avec FME 2016, pour que la licence soit valide, copier le fichier de licence présent dans le répertoire C:\ProgramData\SafeSoftware\FME\Licenses) dans le répertoire \licenses du répertoire d&#39;installation de FME2016.
 
 
 
@@ -118,12 +118,12 @@ Dans le mode Moteurs &gt; Onglet Moteur GTF, le bouton « Ajouter un moteur GTF 
 
 Attribuer un nom au moteur GTF et définir la période d&#39;activité en minutes de ce dernier (période de déclenchement du moteur). On peut choisir de rendre inactif ce moteur, puis on sélectionne le serveur et le moteur FME à associer. Associer ensuite un ou plusieurs mots clés au moteur.
 
- ![](./)
+ 
 
-_L&#39;administrateur peut choisir des mots clés existants et déjà affiliés à d&#39;autres moteurs dans la partie de gauche &#39;Mots clés disponibles&#39;, ou saisir directement le nom d&#39;un nouveau mot clé dans le bloc de droite &#39;Mot clé lié au moteur&#39;. Un simple clic sur un mot clé disponible permet de le lier au moteur GTF._
+![](../images/attention.png) Associer un ou plusieurs mots clés à un moteur permet à l'administrateur de mettre en place une stratégie de distribution des traitements sur plusieurs moteurs GTF : quand un utilisateur crée une demande de traitement, un moteur spécifique est spécifiquement attribué. Chaque moteur GTF est associé à un ou plusieurs mots clés. Chaque projet FME est ensuite associé à un mot clé. L'affiliation d'un projet à un moteur GTF se fait ainsi à partir de mots clés._L&#39;administrateur peut choisir des mots clés existants et déjà affiliés à d&#39;autres moteurs dans la partie de gauche &#39;Mots clés disponibles&#39;, ou saisir directement le nom d&#39;un nouveau mot clé dans le bloc de droite &#39;Mot clé lié au moteur&#39;. Un simple clic sur un mot clé disponible permet de le lier au moteur GTF._
 
- ![](./)
-Il est recommandé de nommer le moteur GTF selon cette règle : ID (auto)\_ FME Version Service Pack. Par exemple : «  #3 FME 2013 SP 3 ».
+
+![](../images/attention.png) Il est recommandé de nommer le moteur GTF selon cette règle : ID (auto)\_ FME Version Service Pack. Par exemple : «  #3 FME 2013 SP 3 ».
 
 
 
@@ -161,15 +161,15 @@ Se connecter à GTF (compte administrateur) puis ajouter une demande.
 
  ![](./)
 
-## Import du fichier d&#39;exemples.
+Import du fichier d&#39;exemples.
 
 Choisir le traitement &quot;Admin-Import&quot; puis dans « Fichier d&#39;export GTF à importer (.gex) : », cliquer sur « Parcourir » et sélectionner le fichier exemples.gex préalablement téléchargé. Définir ensuite le nom du rapport html à générer. Il indique la liste des projets importés, leurs clé et ID ainsi que le statut de l&#39;importation : Inséré dans GTF, Mis à jour dans GTF ou Non mis à jour dans GTF.
 
- ![](./)
-_Il est obligatoire d&#39;insérer l&#39;extension .html dans le champs Nom du rapport à générer._
 
- ![](./)
-_Le paramètre &quot;Que faire des projets existants déjà dans la base GTF (même Clé)&quot; indique à GTF s&#39;il doit charger ou pas les projets déjà existants dans la base GTF et identifiés de façon unique  par l&#39;attribut Clé (cet attribut est généré automatiquement et est associé de façon unique à chaque projet)._
+![](../images/attention.png)Associer un ou plusieurs mots clés à un moteur permet à l'administrateur de mettre en place une stratégie de distribution des traitements sur plusieurs moteurs GTF : quand un utilisateur crée une demande de traitement, un moteur spécifique est spécifiquement attribué. Chaque moteur GTF est associé à un ou plusieurs mots clés. Chaque projet FME est ensuite associé à un mot clé. L'affiliation d'un projet à un moteur GTF se fait ainsi à partir de mots clés._Il est obligatoire d&#39;insérer l&#39;extension .html dans le champs Nom du rapport à générer._
+
+
+![](../images/attention.png)_Le paramètre &quot;Que faire des projets existants déjà dans la base GTF (même Clé)&quot; indique à GTF s&#39;il doit charger ou pas les projets déjà existants dans la base GTF et identifiés de façon unique  par l&#39;attribut Clé (cet attribut est généré automatiquement et est associé de façon unique à chaque projet)._
 
 - ___Si ce paramètre vaut &#39;Ne pas importer&#39; et que le fichier .gex contient un projet FME avec une clé déjà existante dans la base GTF, alors le fichier n&#39;est pas chargé._
 - ___Inversement, si ce paramètre vaut &#39;Remplacer les projets existants&#39;, alors les projets dont la clé existe déjà dans la base de données GTF seront écrasés._
@@ -187,7 +187,7 @@ S&#39;assurer que la Demande ait bien été traitée en consultant le mode Super
 
 
 
-Import des traitements d&#39;administration
+## Import des traitements d&#39;administration
 
 Le projet &#39;Nettoyage des fichiers temporaires&#39; est disponible sur notre site de téléchargement, via le projet admin.gex. Il permet les fonctions d&#39;administration suivantes :
 
@@ -198,11 +198,6 @@ Pour importer ce fichier, procéder de la même manière que précédemment en t
 Se connecter ensuite à GTF et faire une demande du Traitement Admin-Import. Choisir le fichier admin.gex précédemment téléchargé.
 
 Assurez-vous que dans le mode Publication,  ce nouveau traitement ait bien été importé :
-
-
-
-
-
 
 
 
