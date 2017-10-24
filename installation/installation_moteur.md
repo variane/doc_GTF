@@ -155,7 +155,7 @@ Une fois obtenu,  indiquer l'emplacement du fichier de licence délivré par Ver
 
 A ce stade, pour s'assurer du bon fonctionnement de GTF, il est recommandé de procéder à l'import de nouveaux traitements. Pour cela, Veremes met à disposition sur son site de téléchargement des projets exemples au format .gex.
 
-Le projet &#39;Admin\_Import&#39; (associé au groupe Administration et installé automatiquement lors de l'installation de GTF) permet l'import de nouveaux traitements stockés dans un fichier .gex. Au préalable, l'administrateur doit être associé au groupe Administration pour pouvoir exploiter ces deux projets.
+Le projet 'Admin\_Import' (associé au groupe Administration et installé automatiquement lors de l'installation de GTF) permet l'import de nouveaux traitements stockés dans un fichier .gex. Au préalable, l'administrateur doit être associé au groupe Administration pour pouvoir exploiter ces deux projets.
 
 Télécharger le fichier «exemples.gex»  sur notre site de téléchargement. [http://download.veremes.com](http://download.veremes.com/) (répertoire gtf/gex)
 
@@ -171,11 +171,11 @@ Choisir le traitement &quot;Admin-Import&quot; puis dans « Fichier d'export GTF
 ![](../images/attention.png)Associer un ou plusieurs mots clés à un moteur permet à l'administrateur de mettre en place une stratégie de distribution des traitements sur plusieurs moteurs GTF : quand un utilisateur crée une demande de traitement, un moteur spécifique est spécifiquement attribué. Chaque moteur GTF est associé à un ou plusieurs mots clés. Chaque projet FME est ensuite associé à un mot clé. L'affiliation d'un projet à un moteur GTF se fait ainsi à partir de mots clés._Il est obligatoire d'insérer l'extension .html dans le champs Nom du rapport à générer._
 
 
-![](../images/attention.png)_Le paramètre &quot;Que faire des projets existants déjà dans la base GTF (même Clé)&quot; indique à GTF s'il doit charger ou pas les projets déjà existants dans la base GTF et identifiés de façon unique  par l'attribut Clé (cet attribut est généré automatiquement et est associé de façon unique à chaque projet)._
+![](../images/attention.png)_Le paramètre 'Que faire des projets existants déjà dans la base GTF (même Clé)' indique à GTF s'il doit charger ou pas les projets déjà existants dans la base GTF et identifiés de façon unique  par l'attribut Clé (cet attribut est généré automatiquement et est associé de façon unique à chaque projet)._
 
-- Si ce paramètre vaut &#39;Ne pas importer&#39; et que le fichier .gex contient un projet FME avec une clé déjà existante dans la base GTF, alors le fichier n'est pas chargé._
-- Inversement, si ce paramètre vaut &#39;Remplacer les projets existants&#39;, alors les projets dont la clé existe déjà dans la base de données GTF seront écrasés._
-- Choisir &#39;Importer le projet avec un nouvel identifiant et un nouveau nom&#39;, si le projet FME avec la même clé existe déjà en base et que vous souhaitez importer le même projet mais avec un nouveau nom. Le projet est renommé en étant suffixé par la chaîne &quot;(import date de l&#39;import)&quot;._
+- Si ce paramètre vaut 'Ne pas importer' et que le fichier .gex contient un projet FME avec une clé déjà existante dans la base GTF, alors le fichier n'est pas chargé._
+- Inversement, si ce paramètre vaut 'Remplacer les projets existants', alors les projets dont la clé existe déjà dans la base de données GTF seront écrasés._
+- Choisir 'Importer le projet avec un nouvel identifiant et un nouveau nom', si le projet FME avec la même clé existe déjà en base et que vous souhaitez importer le même projet mais avec un nouveau nom. Le projet est renommé en étant suffixé par la chaîne '(import date de l&'import)'.
 
 
 
@@ -191,7 +191,7 @@ S'assurer que la Demande ait bien été traitée en consultant le mode Supervisi
 
 ## Import des traitements d'administration
 
-Le projet 'Nettoyage des fichiers temporaires' est disponible sur notre site de téléchargement, via le projet admin.gex. Il permet les fonctions d&#39;administration suivantes :
+Le projet 'Nettoyage des fichiers temporaires' est disponible sur notre site de téléchargement, via le projet admin.gex. Il permet les fonctions d'administration suivantes :
 
 - le nettoyage des fichiers temporaires stockés dans les répertoires temporaires de GTF et FME.
 
