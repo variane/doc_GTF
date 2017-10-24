@@ -99,14 +99,12 @@ La première étape consiste à déclarer un moteur FME exploitable par GTF.
 
 • Cliquer sur Créer
 
- ![](./)
+ ![Déclaration de moteur FME](../images/moteur.png)
 
-.
 
- ![](./)
 Il est conseillé de nommer le moteur FME en indiquant le numéro de version, le numéro de build et le nombre de bits. Par exemple : « FME2016 b16494-32b ».
 
-  ![](./)Le bouton &#39;Test&#39; permet de vérifier la validité de la licence FME. Avec FME 2016, pour que la licence soit valide, copier le fichier de licence présent dans le répertoire C:\ProgramData\SafeSoftware\FME\Licenses) dans le répertoire \licenses du répertoire d&#39;installation de FME2016.
+Le bouton &#39;Test&#39; permet de vérifier la validité de la licence FME. Avec FME 2016, pour que la licence soit valide, copier le fichier de licence présent dans le répertoire C:\ProgramData\SafeSoftware\FME\Licenses) dans le répertoire \licenses du répertoire d&#39;installation de FME2016.
 
 
 
