@@ -18,13 +18,13 @@ Pycron est le programme qui permet aux utilisateurs de systèmes Windows d'exéc
 
 ### Configuration de Pycron
 
-• Démarrer le service de Pyrcon
+- Démarrer le service de Pyrcon
 
 Démarrer le service de pycron en ligne de commande :
 
     sc start PyCron
 
- ### Test de l&#39;installation de Pycron
+ ### Test de l'installation de Pycron
 
 Exécuter la commande suivante pour accéder à la liste des services de Windows : services.msc
 
@@ -37,14 +37,14 @@ Vérifier que le service soit démarré et que le type de démarrage soit en mod
 Dans GTF, indiquer le répertoire d'installation du Pycron dans le Mode Configuration \> Configuration GTF\> Répertoire de pycron.
 
 
-![](../images/attention.png)**Test** : Cette opération rajoute un répertoire 'Log&' dans la fenêtre d'affichage des journaux du Mode Log.
+![](../images/attention.png) **Test** : Cette opération rajoute un répertoire 'Log&' dans la fenêtre d'affichage des journaux du Mode Log.
 
  ## Installation du Moteur
 
 Décompresser l'archive moteur\_gtf.zip, dans le répertoire d'installation au même niveau que les répertoires client et vas.
 
  
-![](../images/attention.png)Lors de la décompression de l'archive gtf.engines, l'administrateur doit penser à modifier manuellement le fichier de configuration de la base de données PostgreSQL pour autoriser la connexion de l'utilisateur scheduler à la base de données créée lors de l'installation de GTF. Dans le répertoire d'installation de PostgreSQL (répertoire data),  modifier à l'aide d'un éditeur de texte le fichier pg\_hba.conf en y insérant les lignes suivantes pour les deux connexions IPv4 et IPv6._
+![](../images/attention.png) Lors de la décompression de l'archive gtf.engines, l'administrateur doit penser à modifier manuellement le fichier de configuration de la base de données PostgreSQL pour autoriser la connexion de l'utilisateur scheduler à la base de données créée lors de l'installation de GTF. Dans le répertoire d'installation de PostgreSQL (répertoire data),  modifier à l'aide d'un éditeur de texte le fichier pg\_hba.conf en y insérant les lignes suivantes pour les deux connexions IPv4 et IPv6._
 
 
 
@@ -56,11 +56,11 @@ Immédiatement après « # IPv6 local connections » insérer la ligne :
 
         host<base de donnnées>u\_scheduler ::1/128 trust
 
-_ _
+
 
 _\<base de donnnées\> est le nom de la base de données créée en phase d'installation. (vitis par défaut)_
 
-_ _
+
 
 Redémarrer le service PostgreSQL.
 
@@ -70,15 +70,15 @@ Redémarrer le service PostgreSQL.
 
 La déclaration du serveur permet de définir les répertoires contenant l'ordonnanceur Pycron et le moteur GTF.
 
-• Mode Moteur\> Onglet Serveur : Ajouter un serveur
+-Mode Moteur\> Onglet Serveur : Ajouter un serveur
 
-• Nommer le serveur
+-Nommer le serveur
 
-• Définir le répertoire d'installation de Pycron.
+-Définir le répertoire d'installation de Pycron.
 
-• Définir le répertoire contenant le moteur GTF gtf.engines
+-Définir le répertoire contenant le moteur GTF gtf.engines
 
-• Cliquer sur Créer
+-Cliquer sur Créer
 
  ![Déclaration de serveur](../images/ajout_serveur.png)
  
@@ -91,20 +91,20 @@ Un moteur FME est l'instance de FME en charge de l'exécution des projets. GTF p
 
 La première étape consiste à déclarer un moteur FME exploitable par GTF.
 
-• Mode Moteurs \> Onglet Moteur FME : Ajouter un moteur FME
+-Mode Moteurs \> Onglet Moteur FME : Ajouter un moteur FME
 
-• Nommer le moteur et indiquer le chemin du moteur fme.exe.
+-Nommer le moteur et indiquer le chemin du moteur fme.exe.
 
-• Associer le serveur désiré
+-Associer le serveur désiré
 
-• Cliquer sur Créer
+-Cliquer sur Créer
 
  ![Déclaration de moteur FME](../images/moteur.png)
 
 
 ![](../images/attention.png) Il est conseillé de nommer le moteur FME en indiquant le numéro de version, le numéro de build et le nombre de bits. Par exemple : « FME2016 b16494-32b ».
 
-![](../images/attention.png) Le bouton 'Test' permet de vérifier la validité de la licence FME. Avec FME 2016, pour que la licence soit valide, copier le fichier de licence présent dans le répertoire C:\ProgramData\SafeSoftware\FME\Licenses) dans le répertoire \licenses du répertoire d&#39;installation de FME2016.
+![](../images/attention.png) Le bouton 'Test' permet de vérifier la validité de la licence FME. Avec FME 2016, pour que la licence soit valide, copier le fichier de licence présent dans le répertoire C:\ProgramData\SafeSoftware\FME\Licenses) dans le répertoire \licenses du répertoire d'installation de FME2016.
 
 
 
@@ -120,7 +120,7 @@ Attribuer un nom au moteur GTF et définir la période d'activité en minutes de
 
  
 
-![](../images/attention.png) Associer un ou plusieurs mots clés à un moteur permet à l'administrateur de mettre en place une stratégie de distribution des traitements sur plusieurs moteurs GTF : quand un utilisateur crée une demande de traitement, un moteur spécifique est spécifiquement attribué. Chaque moteur GTF est associé à un ou plusieurs mots clés. Chaque projet FME est ensuite associé à un mot clé. L'affiliation d'un projet à un moteur GTF se fait ainsi à partir de mots clés._L'administrateur peut choisir des mots clés existants et déjà affiliés à d'autres moteurs dans la partie de gauche &#39;Mots clés disponibles&#39;, ou saisir directement le nom d'un nouveau mot clé dans le bloc de droite &#39;Mot clé lié au moteur&#39;. Un simple clic sur un mot clé disponible permet de le lier au moteur GTF._
+![](../images/attention.png) Associer un ou plusieurs mots clés à un moteur permet à l'administrateur de mettre en place une stratégie de distribution des traitements sur plusieurs moteurs GTF : quand un utilisateur crée une demande de traitement, un moteur spécifique est spécifiquement attribué. Chaque moteur GTF est associé à un ou plusieurs mots clés. Chaque projet FME est ensuite associé à un mot clé. L'affiliation d'un projet à un moteur GTF se fait ainsi à partir de mots clés._L'administrateur peut choisir des mots clés existants et déjà affiliés à d'autres moteurs dans la partie de gauche 'Mots clés disponibles', ou saisir directement le nom d'un nouveau mot clé dans le bloc de droite 'Mot clé lié au moteur'. Un simple clic sur un mot clé disponible permet de le lier au moteur GTF.
 
 
 ![](../images/attention.png) Il est recommandé de nommer le moteur GTF selon cette règle : ID (auto)\_ FME Version Service Pack. Par exemple : «  #3 FME 2013 SP 3 ».
@@ -131,7 +131,7 @@ Attribuer un nom au moteur GTF et définir la période d'activité en minutes de
 
 
 
-Cliquer ensuite sur le bouton &#39;Créer&#39; pour finaliser la création du moteur GTF
+Cliquer ensuite sur le bouton 'Créer' pour finaliser la création du moteur GTF
 
 ## Configuration du serveur SMTP
 
@@ -187,9 +187,9 @@ S'assurer que la Demande ait bien été traitée en consultant le mode Supervisi
 
 
 
-## Import des traitements d&#39;administration
+## Import des traitements d'administration
 
-Le projet &#39;Nettoyage des fichiers temporaires&#39; est disponible sur notre site de téléchargement, via le projet admin.gex. Il permet les fonctions d&#39;administration suivantes :
+Le projet 'Nettoyage des fichiers temporaires' est disponible sur notre site de téléchargement, via le projet admin.gex. Il permet les fonctions d&#39;administration suivantes :
 
 - le nettoyage des fichiers temporaires stockés dans les répertoires temporaires de GTF et FME.
 
@@ -202,7 +202,7 @@ Assurez-vous que dans le mode Publication,  ce nouveau traitement ait bien été
 
 
 
-Une fois le module GTF installé, l&#39;administrateur peut procéder à la configuration spécifique de GTF en en définissant le compte public, et mettant en place une stratégie de sécurité utilisateur.
+Une fois le module GTF installé, l'administrateur peut procéder à la configuration spécifique de GTF en en définissant le compte public, et mettant en place une stratégie de sécurité utilisateur.
 
 Il créé ensuite les utilisateurs et/ou les importe depuis un annuaire Active Directory.
 
