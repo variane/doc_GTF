@@ -24,7 +24,7 @@ En savoir plus sur les privilèges
 
 ## Test de Connexion du compte administrateur
 
-A ce stade de l'initialisation, le compte administrateur peut se connecter à GTF ( https://&lt;serveur&gt;/gtf) et accéder à l'intégralité des 10 modes de l'application.
+A ce stade de l'initialisation, le compte administrateur peut se connecter à GTF ( https://<serveur>/gtf) et accéder à l'intégralité des 10 modes de l'application.
 
 Les 10 modes sont correctement affichés dans la barre de gauche :
 
@@ -34,7 +34,7 @@ Les 10 modes sont correctement affichés dans la barre de gauche :
 
 Le compte administrateur peut procéder à une demande de traitement. Cette dernière restera en attente et ne sera pas exécutée.
 
- ![](./)
+ ![](../images/attention.png)
  
  
 3 traitements sont intégrés dans GTF : Admin-Import, Admin-export et Vérification des formulaires.
