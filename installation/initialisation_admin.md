@@ -18,9 +18,9 @@ La configuration du compte administrateur permet l&#39;attribution des privilèg
 
 • Se déconnecter
 
- ![](./)
+ ![Attribution de privilèges gtf_admin](././config_admin.png)
 
-Attribution de privilèges gtf\_admin
+Attribution de privilèges gtf_admin
 
 En savoir plus sur les privilèges
 
