@@ -25,4 +25,5 @@ Le processus d'installation de GTF se déroule en 3 étapes
  composants
  initialisation_admin
  installation_moteur
+ test
 
