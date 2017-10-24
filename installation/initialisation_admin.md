@@ -20,9 +20,6 @@ La configuration du compte administrateur permet l&#39;attribution des privilèg
 
  ![Attribution de privilèges gtf_admin](../images/config_admin.png)
 
-
-Attribution de privilèges gtf_admin
-
 En savoir plus sur les privilèges
 
 ## Test de Connexion du compte administrateur
