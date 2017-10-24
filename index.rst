@@ -6,7 +6,7 @@ avec FME et de les mettre à disposition d’un grand nombre d’utilisateurs.
 
 C’est un outil de partage, de planification et de supervision de traitements FME. 
 
-Bienvenue
+
 
 .. toctree::
    :maxdepth: 2
