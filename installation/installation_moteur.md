@@ -22,7 +22,7 @@ Pycron est le programme qui permet aux utilisateurs de systèmes Windows d&#39;e
 
 Démarrer le service de pycron en ligne de commande :
 
-sc start PyCron
+    sc start PyCron
 
  ### Test de l&#39;installation de Pycron
 
