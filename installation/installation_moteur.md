@@ -159,9 +159,9 @@ Télécharger le fichier «exemples.gex»  sur notre site de téléchargement. [
 
 Se connecter à GTF (compte administrateur) puis ajouter une demande.
 
- ![](./)
+ ![Import du fichier d'exemples.](../images/formulaire_import.png)
 
-Import du fichier d&#39;exemples.
+
 
 Choisir le traitement &quot;Admin-Import&quot; puis dans « Fichier d&#39;export GTF à importer (.gex) : », cliquer sur « Parcourir » et sélectionner le fichier exemples.gex préalablement téléchargé. Définir ensuite le nom du rapport html à générer. Il indique la liste des projets importés, leurs clé et ID ainsi que le statut de l&#39;importation : Inséré dans GTF, Mis à jour dans GTF ou Non mis à jour dans GTF.
 
