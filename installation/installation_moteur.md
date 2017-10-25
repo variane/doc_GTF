@@ -78,7 +78,7 @@ La déclaration du serveur permet de définir les répertoires contenant l'ordon
 
 - Définir le répertoire contenant le moteur GTF gtf.engines
 
--C liquer sur Créer
+- Cliquer sur Créer
 
  ![Déclaration de serveur](../images/ajout_serveur.png)
  
@@ -92,12 +92,12 @@ Un moteur FME est l'instance de FME en charge de l'exécution des projets. GTF p
 La première étape consiste à déclarer un moteur FME exploitable par GTF.
 
 -Mode Moteurs \> Onglet Moteur FME : Ajouter un moteur FME
+ 
+- Nommer le moteur et indiquer le chemin du moteur fme.exe.
 
--Nommer le moteur et indiquer le chemin du moteur fme.exe.
+- Associer le serveur désiré
 
--Associer le serveur désiré
-
--Cliquer sur Créer
+- Cliquer sur Créer
 
  ![Déclaration de moteur FME](../images/moteur.png)
 
