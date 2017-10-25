@@ -42,55 +42,12 @@ Les variables à modifier pour l’installation sont :
 |appAdmin	|Compte PostgreSql de l'administrateur GTF. Ce compte sera créé s'il n'existe pas.|
 |appPswd 	|Mot de passe du compte précédent s'il doit être créé. Si le compte existe déjà, cette valeur n'est pas exploitée mais la présence d'une valeur est obligatoire.| 
 
-<tbody>
-                <tr>
-                    <td style="font-weight: bold;">Variable</td>
-                    <td style="font-weight: bold;">Description</td>
-                </tr>
-                <tr>
-                    <td>dir</td>
-                    <td>Répertoire d'installation (si le répertoire n'existe pas, il sera créé)</td>
-                </tr>
-                <tr>
-                    <td>serveur</td>
-                    <td>Serveur de la base de données</td>
-                </tr>
-                <tr>
-                    <td>port</td>
-                    <td>Port d'accès à la base de données</td>
-                </tr>
-                <tr>
-                    <td>bdd</td>
-                    <td>Nom de la base de données (La base de données peut être existante)</td>
-                </tr>
-                <tr>
-                    <td>dblogin</td>
-                    <td>Compte d'un super utilisateur de la base</td>
-                </tr>
-                <tr>
-                    <td>dbpswd</td>
-                    <td>Mot de passe du compte super utilisateur</td>
-                </tr>
-                <tr>
-                    <td>apacheService</td>
-                    <td>Nom du service Apache exploité par l'application</td>
-                </tr>
-                <tr>
-                    <td>apachePort</td>
-                    <td>Port du service https du serveur Apache</td>
-                </tr>
-                <tr>
-                    <td>appAdmin</td>
-                    <td>Compte PostgreSql de l'administrateur GTF. Ce compte sera créé s'il n'existe pas.</td>
-                </tr>
-                <tr>
-                    <td>appPswd	</td>
-                    <td>Mot de passe du compte précédent s'il doit être créé. Si le compte existe déjà, cette valeur n'est pas exploitée mais la présence d'une valeur est obligatoire. </td>
-                </tr>
-            </tbody>
 
-
-
+| Titre 1       |     Titre 2     |   Titre 3      |
+ | ------------- | -------------   | ---------      |
+ | Colonne       |     Colonne     |      Colonne   |
+ | Alignée à     |      Alignée au |     Alignée à  |
+ | Gauche        |      Centre     |      Droite    |
 
 
  
