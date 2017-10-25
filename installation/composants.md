@@ -64,7 +64,7 @@ Un rapport d’installation install_report_dd-mm-yyyy.txt est généré dans le 
  ## Test de l'installation de GTF 
  
 L' instance de GTF doit désormais être disponible à l’adresse : https://\<serveur\>/gtf
-Où \<serveur\> est l’adresse de la machine où l’application est installée. 
+où \<serveur\> est l’adresse de la machine où l’application est installée. 
  
   ![](../images/attention.png)Attention ! La connexion à GTF par l’adresse localhost est impossible.
  
