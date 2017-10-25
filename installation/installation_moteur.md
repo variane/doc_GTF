@@ -168,13 +168,13 @@ Se connecter à GTF (compte administrateur) puis ajouter une demande.
 Choisir le traitement &quot;Admin-Import&quot; puis dans « Fichier d'export GTF à importer (.gex) : », cliquer sur « Parcourir » et sélectionner le fichier exemples.gex préalablement téléchargé. Définir ensuite le nom du rapport html à générer. Il indique la liste des projets importés, leurs clé et ID ainsi que le statut de l'importation : Inséré dans GTF, Mis à jour dans GTF ou Non mis à jour dans GTF.
 
 
-![](../images/attention.png)Associer un ou plusieurs mots clés à un moteur permet à l'administrateur de mettre en place une stratégie de distribution des traitements sur plusieurs moteurs GTF : quand un utilisateur crée une demande de traitement, un moteur spécifique est spécifiquement attribué. Chaque moteur GTF est associé à un ou plusieurs mots clés. Chaque projet FME est ensuite associé à un mot clé. L'affiliation d'un projet à un moteur GTF se fait ainsi à partir de mots clés._Il est obligatoire d'insérer l'extension .html dans le champs Nom du rapport à générer._
+![](../images/attention.png)Associer un ou plusieurs mots clés à un moteur permet à l'administrateur de mettre en place une stratégie de distribution des traitements sur plusieurs moteurs GTF : quand un utilisateur crée une demande de traitement, un moteur spécifique est spécifiquement attribué. Chaque moteur GTF est associé à un ou plusieurs mots clés. Chaque projet FME est ensuite associé à un mot clé. L'affiliation d'un projet à un moteur GTF se fait ainsi à partir de mots clés._Il est obligatoire d'insérer l'extension .html dans le champs Nom du rapport à générer.
 
 
-![](../images/attention.png)_Le paramètre 'Que faire des projets existants déjà dans la base GTF (même Clé)' indique à GTF s'il doit charger ou pas les projets déjà existants dans la base GTF et identifiés de façon unique  par l'attribut Clé (cet attribut est généré automatiquement et est associé de façon unique à chaque projet)._
+![](../images/attention.png)_Le paramètre 'Que faire des projets existants déjà dans la base GTF (même Clé)' indique à GTF s'il doit charger ou pas les projets déjà existants dans la base GTF et identifiés de façon unique  par l'attribut Clé (cet attribut est généré automatiquement et est associé de façon unique à chaque projet).
 
 - Si ce paramètre vaut 'Ne pas importer' et que le fichier .gex contient un projet FME avec une clé déjà existante dans la base GTF, alors le fichier n'est pas chargé._
-- Inversement, si ce paramètre vaut 'Remplacer les projets existants', alors les projets dont la clé existe déjà dans la base de données GTF seront écrasés._
+- Inversement, si ce paramètre vaut 'Remplacer les projets existants', alors les projets dont la clé existe déjà dans la base de données GTF seront écrasés.
 - Choisir 'Importer le projet avec un nouvel identifiant et un nouveau nom', si le projet FME avec la même clé existe déjà en base et que vous souhaitez importer le même projet mais avec un nouveau nom. Le projet est renommé en étant suffixé par la chaîne '(import date de l&'import)'.
 
 
