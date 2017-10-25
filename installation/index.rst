@@ -1,7 +1,7 @@
 Installation de GTF
 =======================
  
-Pour installer GTF, il faut télécharger l'installateur sur le site http://download.veremes.com, dans le répertoire gtf/gtf2016.
+Pour installer GTF, il faut télécharger l'installateur sur le site http://download.veremes.com, dans le répertoire gtf/gtfaaaa (où aaaa représente le millésime).
 Les codes d'accès (login et password) sont fournis par e-mail à la suite d'une commande ou demande d'évaluation.
 
 Ces informations peuvent être renvoyées sur simple demande à codes@veremes.com.
@@ -15,6 +15,7 @@ L'installateur comporte :
 
 
 Après téléchargement de l'installateur, décompresser l'intégralité de ces ressources dans un répertoire spécifique. Nous préconisons de nommer ce répertoire 'gtf_telechargement'.
+
 Le processus d'installation de GTF se déroule en 3 étapes
 
 .. toctree::
@@ -25,6 +26,7 @@ Le processus d'installation de GTF se déroule en 3 étapes
  composants
  initialisation_admin
  installation_moteur
+ 
  mise_a_jour_gtf
  
 
