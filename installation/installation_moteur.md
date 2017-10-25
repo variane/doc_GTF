@@ -70,15 +70,15 @@ Redémarrer le service PostgreSQL.
 
 La déclaration du serveur permet de définir les répertoires contenant l'ordonnanceur Pycron et le moteur GTF.
 
--Mode Moteur\> Onglet Serveur : Ajouter un serveur
+- Mode Moteur\> Onglet Serveur : Ajouter un serveur
 
--Nommer le serveur
+- Nommer le serveur
 
--Définir le répertoire d'installation de Pycron.
+- Définir le répertoire d'installation de Pycron.
 
--Définir le répertoire contenant le moteur GTF gtf.engines
+- Définir le répertoire contenant le moteur GTF gtf.engines
 
--Cliquer sur Créer
+-C liquer sur Créer
 
  ![Déclaration de serveur](../images/ajout_serveur.png)
  
