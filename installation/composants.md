@@ -16,13 +16,13 @@ Procéder en premier lieu à l'installation de FME pour que GTF puisse fonctionn
  
 GTF utilise le protocole sécurisé https qui assure le cryptage des échanges entre le Serveur d’Application Vitis et le poste client. Il est donc nécessaire d’installer une version spécifique du serveur http Apache compilé avec le module SSL.
  
-Procédure d’installation Apache 2.4 pour Windows
+[Procédure d’installation Apache 2.4 pour Windows](http://www.veremes.com/installation-apache-2-4-mod_ssl-windows)
  
 ### Installation de Postgresql
 
 GTF utilise une base Postgresql pour stocker les informations sur les projets FME et les demandes de traitement ainsi que sur les utilisateurs et leurs droits. Si Postgresql est déjà installé sur votre poste, cette étape est facultative.
  
-Procédure d’installation Postgresql pour Windows
+[Procédure d’installation Postgresql pour Windows](http://www.veremes.com/installation-postgresql-windows)
  
 ## Installation de GTF 
 
