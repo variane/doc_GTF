@@ -37,7 +37,7 @@ Vérifier que le service soit démarré et que le type de démarrage soit en mod
 Dans GTF, indiquer le répertoire d'installation du Pycron dans le Mode Configuration \> Configuration GTF\> Répertoire de pycron.
 
 
-![](../images/attention.png) **Test** : Cette opération rajoute un répertoire 'Log&' dans la fenêtre d'affichage des journaux du Mode Log.
+![](../images/attention.png) **Test** : cette opération rajoute un répertoire 'Log' dans la fenêtre d'affichage des journaux du Mode Log.
 
  ## Installation du Moteur
 
