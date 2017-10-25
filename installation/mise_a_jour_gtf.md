@@ -1,7 +1,7 @@
   
   # Mise à jour de GTF 
   
-  - Télécharger le setup à l'adresse suivante [](http://download.veremes.net/products/gtf/setup_gtf-2017.01.03.b26443-win.zip)
+  - Télécharger le setup à l'adresse suivante [setup de GTF](http://download.veremes.net/products/gtf/setup_gtf-2017.01.03.b26443-win.zip)
   
   - Décompresser l'archive
   
