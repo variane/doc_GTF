@@ -1,0 +1,3 @@
+[submodule "doc_Vitis"]
+	path = doc_Vitis
+	url = https://github.com/Veremes/doc_Vitis.git
