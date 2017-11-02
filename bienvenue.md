@@ -1,5 +1,7 @@
 
 
+
+
 # Bienvenue dans GTF
 
 
@@ -39,4 +41,4 @@ L&#39;architecture de GTF est constituée de plusieurs composants logiciels.
 
  ![composants logiciels de GTF](./images/gtf_composants.png)
  
-
+ajout
